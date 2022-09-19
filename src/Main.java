@@ -7,5 +7,10 @@ public class Main {
 
     Animal animal = new Wolf(); //with interface reference you cannot access any method declared inside a class(like Wolf) but you can access interface methods that were override
     animal.die();
+
+    Animal.stalk();// static method
     }
-}
+
+
+    }
+
